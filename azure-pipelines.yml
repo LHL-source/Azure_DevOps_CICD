@@ -14,7 +14,7 @@ steps:
 
 - script: |
     pip install -r requirements.txt
-    pytest tests/
+    pytest -v tests/
   displayName: 'Install dependencies and run tests'
 
 - task: ArchiveFiles@2
