@@ -33,6 +33,6 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'MyAzureCICDServiceConnection'
+    azureSubscription: 'MyAzureCICDServiceConnection_V1'
     appName: 'PowerV1'
     package: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
